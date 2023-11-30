@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Abyssinica+SIL&family=Baloo+Bhaina+2&family=Bree+Serif&family=Dancing+Script&family=DynaPuff&family=Inter:wght@200&family=Kaushan+Script&family=Lemon&family=Maven+Pro&family=Merriweather+Sans&family=Mukta+Mahee:wght@300&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Public+Sans:wght@100&family=Quicksand:wght@300&family=Raleway:wght@300;400&family=Roboto:wght@300;400&family=Rowdies:wght@300;400&family=Russo+One&family=Satisfy&family=Secular+One&family=Seymour+One&family=Staatliches&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.image {
+  display: flex;
+}
+
+.conatiner {
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.heading {
+  padding: 24px 16px;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  /* text-decoration: none; */
+}
+.heading .a1 {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+}
+.heading .a2 {
+  padding: 0px 16px;
+  text-decoration: none;
+  float: right;
+  color: black;
+}
+
+.bottom {
+  margin-bottom: -10px;
+}
+/* about */
+.about {
+  padding: 64px 0;
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Raleway", Arial, sans-serif;
+}
+.about h2 {
+  text-align: center;
+  font-size: 30px;
+  /* font-family: serif; */
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.about img {
+  padding: 32px 0;
+}
+
+/* form */
+.form {
+  margin: auto;
+  width: 60%;
+  line-height: 1.5;
+}
+.form p {
+  margin: 15px 0;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 15px;
+}
+.form .red {
+  margin: 18px 0;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 18px;
+  color: #e91e63;
+  line-height: 1.5;
+}
+/* contact */
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+  font-weight: bolder;
+  font-size: 15px;
+}
+label {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.border {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+button {
+  color: #fff;
+  background-color: #616161;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  height: 38px;
+}
+button:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+.power {
+  margin: 30px 0 !important;
+}
